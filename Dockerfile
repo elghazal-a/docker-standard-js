@@ -4,6 +4,7 @@ MAINTAINER geniousphp "geniousphp@gmail.com"
 
 RUN npm install -g standard@9.0.1 \
 	&& npm install -g standard-reporter@1.0.5 \
+  && npm cache clean \
 	&& mkdir /standard
 
 WORKDIR /standard
