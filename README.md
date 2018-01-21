@@ -22,4 +22,7 @@ docker run --rm -v  $(pwd):/standard geniousphp/standard-js standard | docker ru
 
 Yes, you can pipe container output to other container input :)
 
+## Versioning
+the first three numbers are always the same as `standarjs` lib while the last number is for own updates
+
 [standard]: http://standardjs.com/rules.html
