@@ -1,8 +1,8 @@
-FROM mhart/alpine-node:6.9.2
+FROM mhart/alpine-node:10.12.0
 
 MAINTAINER geniousphp "geniousphp@gmail.com"
 
-RUN npm install -g standard@10.0.3 \
+RUN npm install -g standard@12.0.1 \
 	&& npm install -g standard-reporter@1.0.5 \
   && npm cache clean \
 	&& mkdir /standard
