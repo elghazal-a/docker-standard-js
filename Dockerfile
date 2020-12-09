@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.10
+FROM node:14.15-alpine3.10
 
 MAINTAINER geniousphp "geniousphp@gmail.com"
 
